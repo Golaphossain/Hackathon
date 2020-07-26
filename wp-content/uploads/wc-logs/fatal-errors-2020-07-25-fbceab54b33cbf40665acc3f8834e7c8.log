@@ -1,0 +1,13 @@
+2020-07-25T22:16:02+00:00 CRITICAL Uncaught Exception: Element must be mapped in system in /home3/georgiarose/public_html/practice-ecommerce03/wp-content/plugins/js_composer/include/classes/shortcodes/shortcodes.php:1426
+Stack trace:
+#0 /home3/georgiarose/public_html/practice-ecommerce03/wp-content/plugins/js_composer/include/classes/shortcodes/shortcodes.php(1452): Vc_Shortcodes_Manager->getElementClass('rev_slider')
+#1 /home3/georgiarose/public_html/practice-ecommerce03/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php(683): Vc_Shortcodes_Manager->shortcodeClass()
+#2 /home3/georgiarose/public_html/practice-ecommerce03/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php(614): Vc_Frontend_Editor->renderShortcodes(Array)
+#3 /home3/georgiarose/public_html/practice-ecommerce03/wp-includes/class-wp-hook.php(287): Vc_Frontend_Editor->loadShortcodes('')
+#4 /home3/georgiarose/public_html/practice-ecommerce03/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#5 /ho in /home3/georgiarose/public_html/practice-ecommerce03/wp-content/plugins/js_composer/include/classes/shortcodes/shortcodes.php on line 1426
+
+2020-07-25T22:16:25+00:00 CRITICAL Object of class vcEventsSlider could not be converted to string in /home3/georgiarose/public_html/practice-ecommerce03/wp-content/themes/alone/framework-customizations/extensions/custom-js-composer/vc-params/vc_events_slider.php on line 558
+
+2020-07-25T23:02:45+00:00 CRITICAL Object of class vcEventsSlider could not be converted to string in /home3/georgiarose/public_html/practice-ecommerce03/wp-content/themes/alone/framework-customizations/extensions/custom-js-composer/vc-params/vc_events_slider.php on line 558
+
